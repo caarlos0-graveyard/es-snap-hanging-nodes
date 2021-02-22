@@ -1,0 +1,15 @@
+brews:
+- tap:
+    owner: caarlos0
+    name: homebrew-tap
+  homepage:  https://github.com/caarlos0/es-snap-hanging-nodes
+  description: Find nodes hanging an ElasticSearch snapshot.
+  folder: Formula
+nfpms:
+- maintainer: Carlos A Becker <pkg@carlosbecker.com>
+  description: Find nodes hanging an ElasticSearch snapshot.
+  license: MIT
+  formats:
+  - deb
+  - rpm
+  - apk
